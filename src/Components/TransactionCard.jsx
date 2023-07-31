@@ -40,13 +40,13 @@ const TransactionCard = ({ transaction }) => {
       <div className="flex justify-end">
         <button
           onClick={openModal}
-          className="text-indigo-600  flex hover:text-indigo-800 rounded focus:outline-none focus:ring-2"
+          className="text-indigo-600  flex hover:text-indigo-800 rounded "
         >
           <PencilIcon className="h-6 w-6" /> {" Edit"}
         </button>
         <button
           onClick={openDeleteModal}
-          className="text-red-600 flex hover:text-red-800 rounded focus:outline-none focus:ring-2 "
+          className="text-red-600 flex hover:text-red-800 rounded "
         >
           <TrashIcon className="h-6 w-6" />
           {" Delete"}
